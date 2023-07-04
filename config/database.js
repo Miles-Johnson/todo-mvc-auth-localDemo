@@ -1,3 +1,4 @@
+//Setup async function to connect to MongoDB  with mongoose and return a connection object
 const mongoose = require('mongoose')
 
 const connectDB = async () => {
