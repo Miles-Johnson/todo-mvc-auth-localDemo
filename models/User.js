@@ -1,3 +1,5 @@
+//enables you to create a user. The result of a new user will be a document that has a username, email, and a password due to the Schema. Consturcors that spit out an object. Just a construcor fucntion. They wind up in the database
+
 const bcrypt = require('bcrypt')
 const mongoose = require('mongoose')
 
@@ -32,5 +34,5 @@ UserSchema.methods.comparePassword = function comparePassword(candidatePassword,
   })
 }
 
-
+//
 module.exports = mongoose.model('User', UserSchema)
