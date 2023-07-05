@@ -1,7 +1,6 @@
-//This line imports the Express module, Express is a framework to handle backend api routes / response / middleware / HTTP(s)
 const express = require('express')
-//Instansiates the main express function, holds it in a variable to be used later.
 const app = express()
+//Imports Mongoose Module. Mongoose allows us to interface with the MongoDB database. Mongoose is an ODM (Object Databe Modeling) library that allows you to model databse schemas in application logic.
 const mongoose = require('mongoose')
 
 //Imports passport.js which is a middlewares module for Node.js. that handles authentication and authorization via modular strategies
